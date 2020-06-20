@@ -11,4 +11,8 @@ describe('POST /api/login', () => {
     expect(res.statusCode).toEqual(200);
     expect(res.body).toHaveProperty('token');
   });
+
+  it('should fail', () => {
+    expect(true).toBe(false);
+  });
 });
