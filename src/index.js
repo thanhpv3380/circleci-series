@@ -1,6 +1,8 @@
-require('dotenv-safe').config({
-  allowEmptyValues: true
-});
+if (!process.env.CI) {
+  require('dotenv-safe').config({
+    allowEmptyValues: true
+  });
+}
 
 const express = require('express');
 const low = require('lowdb');
