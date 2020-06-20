@@ -1,6 +1,6 @@
-# Integration test series
+# CircleCI series
 
-Đây là code mẫu dùng trong chuỗi bài giảng về Integration test của CodersX
+Đây là code mẫu dùng trong chuỗi bài giảng về CircleCI của CodersX
 
 ## Development
 
@@ -11,4 +11,10 @@
 ```
 $ npm install
 $ npm run dev
+```
+
+## Testing
+
+```
+$ npm test
 ```
